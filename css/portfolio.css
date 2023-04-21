@@ -1,7 +1,7 @@
 body{
     background-color: black;
 }
-
+/* presentacion */
 .divPresentacion {
     padding: 100px;
     color: white;
@@ -13,4 +13,34 @@ body{
     width: 200px;
     border-radius: 100%;
 
+}
+
+
+/* galeria */
+
+.galeria{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+
+.proyecto{
+    background-color: white;
+    padding: 5px;
+    border-radius: 2%;
+    min-height: 200px;
+    min-width: 200px;
+    
+}
+
+.textos{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
