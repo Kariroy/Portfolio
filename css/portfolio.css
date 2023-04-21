@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+.divPresentacion {
+    padding: 100px;
+    color: white;
+}
+
+.fotoPerfil {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+
+}
